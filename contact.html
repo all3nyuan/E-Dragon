@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Atlanta is a modern and fully responsive Template by WebThemez.">
+	<meta name="author" content="webThemez.com">	
+	<title>易龙科技-联系我们</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<style type="text/css">
+       #allmap{
+		   width: 100%;
+		   overflow: hidden;
+		   height: 325px;
+	   }
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wUlWaKb9d6MvtfprNyBIXtQ05bGPPhNI"></script>
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="易龙软件科技"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right" style="font-size: 16px;">
+						<li><a href="index.html">首页</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">解决方案<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="solutions.html">智能终端</a></li>
+							<li><a href="solutions.html">智能汽车</a></li>
+							<li><a href="solutions.html">物联网</a></li>
+							<li><a href="solutions.html">移动互联网</a></li>
+						</ul>
+					</li>
+					<li><a href="services.html">客户案例</a></li>
+					<li><a href="news.html">新闻动态</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li class="active"><a href="contact.html">联系我们</a></li>
+					
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<ol class="breadcrumb">
+			<li><a href="index.html">首页</a></li>
+			<li class="active">联系我们</li>
+		</ol>
+
+		<div class="row">
+			
+			<!-- Article main content -->
+			<article class="col-sm-6 maincontent">
+				<header class="page-header">
+					<h1 class="page-title" style="color: #002040">联系我们</h1>
+				</header>				
+				<h4>留言反馈</h4>
+				<br>
+							<!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
+		<form name="sentMessage" id="contactForm"  novalidate> 
+			<div class="control-group">
+				<div class="controls">
+					<input type="text" class="form-control" 
+					placeholder="姓名" id="name" required
+					data-validation-required-message="Please enter your name" />
+					<p class="help-block"></p>
+				</div>
+			</div>	
+			<div class="control-group">
+				<div class="controls">
+					<input type="email" class="form-control" placeholder="联系方式" 
+					id="email" required
+					data-validation-required-message="Please enter your email" />
+				</div>
+			</div>	
+			<div class="control-group" style="margin-top: 10px">
+				<div class="controls">
+					<textarea rows="10" cols="100" class="form-control" 
+					placeholder="填写您的留言内容" id="message" required
+					data-validation-required-message="Please enter your message" minlength="5" 
+					data-validation-minlength-message="Min 5 characters" 
+					maxlength="999" style="resize:none"></textarea>
+				</div>
+			</div> 		 
+			<div id="success"> </div><br/> <!-- For success/fail messages -->
+			<button type="submit" class="btn btn-primary pull-right" style="font-size: 16px;letter-spacing: 2px;font-family: Microsoft Yahei;">提交留言</button><br/>
+		</form>
+
+			</article>
+			<!-- /Article -->
+			
+			<!-- Sidebar -->
+			<aside class="col-sm-6 sidebar sidebar-right" style="padding-bottom: 15px">
+				<div class="panel contact">
+					<h4>联系地址</h4>
+					<ul>
+						  <li><i class="fa fa-phone" style="margin-right: 5px;"></i>电话：13059623434</li>
+						  <li><i class="fa fa-envelope-o"></i> 邮箱：E-Dragon-bdev@163.com</li>
+						  <li><i class="fa fa-flag" style="margin-right: 5px;"></i>地址：丽水市莲都区城北街368号绿谷信息产业园南区绿谷3号楼504</li>
+				   </ul> 
+				</div>		
+			</aside>
+			<div class="col-sm-6">
+				<div id="allmap"></div>
+	        </div>
+			<!-- /Sidebar -->
+
+		</div>
+	</div>	<!-- /container -->
+
+	
+    <footer id="footer" class="top-space">
+
+			<div class="footer1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 panel">
+							<h3 class="panel-title">相关链接</h3>
+							<div class="panel-body">
+								<p class="simplenav" style="font-size: 16px;">
+									<a href="index.html">首页</a> | 
+									<a href="services.html">成功案例</a> |
+									<a href="solutions.html">解决方案</a> |
+									<a href="recruitment.html">人才招聘</a> |
+									<a href="about.html">关于易龙</a> 
+								</p>
+								<p class="simplenav">
+									<a href="legal.html">法律声明</a> | 
+									<a href="privacy.html">隐私保护</a> |
+									<a href="contact.html">联系我们</a> 
+								</p>
+							</div>
+						</div>
+	
+						<div class="col-md-6 panel contact"> 
+							<h3 class="panel-title">联系方式</h4>
+							<div class="panel-body">
+							<p></p>
+							<ul style="font-size: 14px;">
+							  <li><i class="fa fa-phone" style="margin-right: 5px;"></i>电话：13059623434</li>
+							  <li><i class="fa fa-envelope-o" style="margin-right: 5px;"></i>邮箱：E-Dragon-bdev@163.com</li>
+							  <li><i class="fa fa-map-marker" style="margin-right: 5px;"></i>地址：丽水市莲都区城北街368号绿谷信息产业园南区绿谷3号楼504</li>
+							</ul> 
+							</div>
+						</div>
+				
+					</div> <!-- /row of panels -->
+				</div>
+			</div>
+	
+			<div class="footer2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 panel">
+							<div class="panel-body">
+								<p class="text-center">
+									Copyright &copy; 2018.E-Dragon Software Technology All rights reserved.</a> - 浙ICP备案号XXXXXXXXX
+								</p>
+							</div>
+						</div>
+					</div> <!-- /row of panels -->
+				</div>
+			</div>
+	
+		</footer>	
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="contact/jqBootstrapValidation.js"></script>
+	<script src="contact/contact_me.js"></script>
+	<script src="assets/js/custom.js"></script>
+	
+	<!-- Baidu Maps -->
+	<!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wUlWaKb9d6MvtfprNyBIXtQ05bGPPhNI"></script> -->
+	
+	<script type="text/javascript">
+		//百度地图API功能
+		var map = new BMap.Map("allmap");
+		var point = new BMap.Point(119.912564,28.471699);
+		var marker = new BMap.Marker(point);// 创建信息窗口对象
+		map.centerAndZoom(point, 18);
+		map.addOverlay(marker);
+		map.enableScrollWheelZoom(true); 
+		var opts = {
+		width : 200,     // 信息窗口宽度
+		height: 70,     // 信息窗口高度
+		title : "易龙科技" , // 信息窗口标题
+		enableMessage:true,//设置允许信息窗发送短息
+		message:"丽水市易龙软件科技有限公司"
+		}
+		var infoWindow = new BMap.InfoWindow("地址：丽水市莲都区城北街368号绿谷信息产业园南区绿谷3号楼504", opts);  // 创建信息窗口对象 
+		marker.addEventListener("click", function(){          
+			map.openInfoWindow(infoWindow,point); //开启信息窗口
+		});
+	</script>
+</body>
+</html>
