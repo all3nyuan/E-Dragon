@@ -18,7 +18,7 @@
 	<![endif]-->
 	<style type="text/css">
        #allmap{
-		   width: 100%; overflow: hidden;height: 325px;
+		   width: 100%; overflow: hidden;height: 330px;
 	   }
 	</style>
 	<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=wUlWaKb9d6MvtfprNyBIXtQ05bGPPhNI"></script>
@@ -71,7 +71,7 @@
 			<!-- Article main content -->
 			<article class="col-sm-6 maincontent">
 				<header class="page-header">
-					<h1 class="page-title" style="color: #002040">联系我们</h1>
+					<h2 class="page-title" style="color: #002040">联系我们</h2>
 				</header>				
 				<h4>留言反馈</h4>
 				<br>
@@ -79,30 +79,23 @@
 		<form name="sentMessage" id="contactForm"  novalidate> 
 			<div class="control-group">
 				<div class="controls">
-					<input type="text" class="form-control" 
-					placeholder="姓名" id="name" required
-					data-validation-required-message="Please enter your name" />
+					<input type="text" class="form-control" placeholder="姓名" id="name" required data-validation-required-message="请填写您的姓名" />
 					<p class="help-block"></p>
 				</div>
 			</div>	
 			<div class="control-group">
 				<div class="controls">
-					<input type="email" class="form-control" placeholder="联系方式" 
-					id="email" required
-					data-validation-required-message="Please enter your email" />
+					<input type="email" class="form-control" placeholder="联系方式" id="email" required data-validation-required-message="请填写您的联系方式" />
 				</div>
 			</div>	
 			<div class="control-group" style="margin-top: 10px">
 				<div class="controls">
-					<textarea rows="10" cols="100" class="form-control" 
-					placeholder="填写您的留言内容" id="message" required
-					data-validation-required-message="Please enter your message" minlength="5" 
-					data-validation-minlength-message="Min 5 characters" 
-					maxlength="999" style="resize:none"></textarea>
+					<textarea rows="10" cols="100" class="form-control" placeholder="填写您的留言内容" id="message" required data-validation-required-message="请填写您的留言内容" 
+					minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
 				</div>
 			</div> 		 
 			<div id="success"> </div><br/> <!-- For success/fail messages -->
-			<button type="submit" class="btn btn-primary pull-right" style="font-size: 16px;letter-spacing: 2px;font-family: Microsoft Yahei;">提交留言</button><br/>
+			<button type="submit" class="btn btn-submit pull-right">提交留言</button><br/>
 		</form>
 
 			</article>
@@ -113,9 +106,9 @@
 				<div class="panel contact">
 					<h4>联系地址</h4>
 					<ul>
-						  <li><i class="fa fa-phone" style="margin-right: 5px;"></i>电话：13059623434</li>
-						  <li><i class="fa fa-envelope-o"></i> 邮箱：E-Dragon-bdev@163.com</li>
-						  <li><i class="fa fa-flag" style="margin-right: 5px;"></i>地址：丽水市莲都区城北街368号绿谷信息产业园南区绿谷3号楼504</li>
+						<li><i class="fa fa-phone" style="margin-right: 5px;"></i>电话：13059623434</li>
+						<li><i class="fa fa-envelope-o"></i> 邮箱：E-Dragon-bdev@163.com</li>
+						<li><i class="fa fa-flag" style="margin-right: 5px;"></i>地址：丽水市莲都区城北街368号绿谷信息产业园南区绿谷3号楼504</li>
 				   </ul> 
 				</div>		
 			</aside>
@@ -190,8 +183,8 @@
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
-	<script src="contact/jqBootstrapValidation.js"></script>
-	<script src="contact/contact_me.js"></script>
+	<script src="https://cdn.bootcss.com/jqBootstrapValidation/1.3.7/jqBootstrapValidation.js"></script>
+	<script src="assets/js/contact_me.js"></script>
 	<script src="assets/js/custom.js"></script>
 	
 	<!-- Baidu Maps -->

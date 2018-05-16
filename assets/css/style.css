@@ -384,8 +384,89 @@ img.pull-left {
    width: 200px;
 }		
 .job-inf{
-    margin-left: 20px;
-    margin-right: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.btn-submit{
+   font-size: 16px;
+   letter-spacing: 2px;
+   background-color: #668BA4;
+   color: #fff;
+   font-style: normal;
+   
+}
+.btn-submit:hover{
+   background-color: #355C7D;
+   color: #fff;
+}
+::-moz-selection { background: #2ba560; color: #fff; text-shadow: none; }
+::selection { background: #2ba560; color: #fff; text-shadow: none; }
+/***** Block 2 *****/
+
+.block-2-container {
+	padding-top: 50px;
+}
+
+.block-2-box {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.block-2-box.block-2-media { padding-bottom: 25px; }
+
+.block-2-box h3 {
+	padding: 10px 0;
+}
+.block-2-box h3:first-child { margin-top: 0; }
+
+.block-2-box p {
+	font-size: 18px;
+    line-height: 32px;
+}
+
+.block-2-box ul {
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+    line-height: 32px;
+}
+
+.block-2-box ul li {
+	padding: 5px 0;
+}
+
+.block-2-box ul span.list-icon {
+	padding-right: 10px;
+	font-size: 24px;
+	color: #2ba560;
+	vertical-align: middle;
+}
+
+.block-2-img-container {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.block-2-img-container .img-container-line {
+	position: absolute;
+	width: 180px;
+	height: 1px;
+	background: #fff;
+	-ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg);
+}
+.section-container-gray .block-2-img-container .img-container-line { background: #f8f8f8; }
+
+.block-2-img-container .img-container-line.line-1 { top: 63px; left: -27px; }
+.block-2-img-container .img-container-line.line-2 { top: 43px; left: -27px; }
+.block-2-img-container .img-container-line.line-3 { top: 23px; left: -27px; }
+
+.block-2-img-container img { -moz-border-radius: 0 0 40px 0; -webkit-border-radius: 0 0 40px 0; border-radius: 0 0 40px 0; }
+
+.block-2-box .video-box {
+	max-width: 540px;
+	margin: 0 auto;
 }
 /* carousel */
 #quote-carousel {
