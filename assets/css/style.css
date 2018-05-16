@@ -393,7 +393,8 @@ img.pull-left {
    background-color: #668BA4;
    color: #fff;
    font-style: normal;
-   
+   font-family: Microsoft YaHei;
+   font-weight: bolder;
 }
 .btn-submit:hover{
    background-color: #355C7D;
