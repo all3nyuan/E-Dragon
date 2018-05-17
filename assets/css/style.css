@@ -575,12 +575,12 @@ nav#filter {
     nav#filter a {
         padding: 4px 12px;
         line-height: 20px;
-        border: 1px solid #00bfff;
+        border: 1px solid #475F77;
         text-decoration: none;
-		color:#00bfff;
+		color:#475F77;
     }
 nav#filter a.current{
-background:#00bfff;
+background:#475F77;
 color:#fff;
 }
 .iconColor .fa{
