@@ -32,8 +32,8 @@ label {
 }
 
 #head.secondary {
-    height: 100px;
-    min-height: 100px;
+    height: 70px;
+    min-height: 70px;
     padding-top: 0px;
 }
 
@@ -117,7 +117,7 @@ label {
 }
 
 .slideUp {
-    top: -100px;
+    top: -70px;
 }
 .headroom {
     -webkit-transition: all 0.4s ease-out;
@@ -490,7 +490,7 @@ img.pull-left {
 /* Next button  */
 #quote-carousel .carousel-control.right {
     right: -12px !important;
-}
+/}
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators {
     right: 50%;
@@ -534,8 +534,7 @@ padding:0px;
 }
 .contact ul li {
 margin-bottom: 10px;
-list-style: none;
-}
+ist-style: none;}
 footer ul li {
 list-style: none;
 }
@@ -555,7 +554,7 @@ list-style: none;
 }
 
     #portfolio img {
-        width: 100%;
+        width: 100%;++-*/
     }
 
     #portfolio article p {
