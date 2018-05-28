@@ -103,7 +103,7 @@
 	-moz-user-select: none;
 	-webkit-user-select: none;
 }
-.da-dots span{
+/* .da-dots span{
 	display: inline-block;
 	position: relative;
 	width: 12px;
@@ -125,7 +125,7 @@
 	left: 2px;
 	border-radius: 50%;
 	background: #666666;
-}
+} */
 .da-arrows{
 	-moz-user-select: none;
 	-webkit-user-select: none;
